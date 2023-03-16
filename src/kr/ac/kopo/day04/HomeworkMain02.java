@@ -13,8 +13,12 @@ public class HomeworkMain02 {
 		System.out.print("지불한 돈 입력 :");
 		int money = sc.nextInt();
 		int change = money - price;
-		System.out.println("거스름돈 : " + change + "원");
+		if( change < 0) {
+			System.out.println((price - money) + "원이 부족합니다");
+		} else {
+			System.out.println("거스름 돈 " + change + "원");
 		
+	
 		int w1000 = (change / 1000);
 		change =change % 1000;
 		int w500 = (change / 500);
@@ -27,14 +31,8 @@ public class HomeworkMain02 {
 		change = change % 10;
 		
 		System.out.printf("1000원 : %d개\n 500원 : %d개\n 50원 : %d개\n 10원: %d개\n", w1000 ,w500,w100,w50,w10);
-		
-		System.out.print("물건값을 입력 :");
-		int price2 = sc.nextInt();
-		System.out.print("지불한 돈의 액수 :");
-		int money2 = sc.nextInt();
-		int change2 = (price2 - money2);
-		System.out.print( change2 + "원이 부족합니다");
-		
+	
+		}
 	}
 
 }

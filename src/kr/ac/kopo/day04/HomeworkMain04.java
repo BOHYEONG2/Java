@@ -17,6 +17,7 @@ public class HomeworkMain04 {
 		System.out.print("네번 째 정수 : ");
 		int num4 = sc.nextInt();
 		
+/*		
 		if(num1 > num2 && num1 > num3 && num1 > num4) {
 			System.out.println("가장 큰 수는 " + num1);
 		} else if(num2 > num3 && num2> num4 && num2 > num1) {
@@ -29,4 +30,25 @@ public class HomeworkMain04 {
 		}
 	}
 
+}
+
+		int max01 = num1 > num2  ? num1 : num2;
+		int max02 = num3;
+		if(num3 < num4) {
+			max02 = num4;
+		}
+		
+		System.out.println("가장 큰수 :" + (max01 > max02 ? max01 : max02 ));
+		}
+}
+*/
+		int max = num1 > num2 ? num1 : num2;
+		if(max < num3) {
+			max = num3;
+		}
+		if(max < num4) {
+			max = num4;
+		}
+		System.out.println("가장 큰수 : " + max);
+		}
 }
