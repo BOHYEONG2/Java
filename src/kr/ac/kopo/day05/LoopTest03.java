@@ -4,7 +4,8 @@ public class LoopTest03 {
 
 	public static void main(String[] args) {
 		
-/*		int i,j,k;
+//10번문제		
+		int i,j,k;
 		for(i=1; i<=9; i++) {
 			if (i <= 5) {
 				for(j=1; j<=i; j++) 
@@ -14,11 +15,19 @@ public class LoopTest03 {
 						System.out.print("*");
 				} System.out.println();
 		} 
-	}
-}
-10번문제 */
-		
-/*		int i,j,k;
+
+/*
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+*/		
+/*11번	int i,j,k;
 		for(i=1; i<=9; i++) {
 			if ( i <= 5) {
 				for(j = 5; j >= i; j--) 
@@ -30,7 +39,19 @@ public class LoopTest03 {
 			System.out.println();			
 			}
 */			
-/*		int i,j,k;
+/*
+*****
+****
+***
+**
+*
+**
+***
+****
+*****			
+ */
+		
+/* 12번		int i,j,k;
 		for(i=1; i<=9; i++) {
 			
 			if(i <=5) {
@@ -50,9 +71,21 @@ public class LoopTest03 {
 			} 
 			System.out.println();
 		}
-12번문제 */	
+*/
+
+/*
+*****
+ ****
+  ***
+   **
+    *
+   **
+  ***
+ ****
+*****	 
+ */
 // 13번문제		
-		int i,j,k;
+/*		int i,j,k;	
 		for(i=1; i<=9; i++) {
 			
 			if( i<=5) {
@@ -71,10 +104,17 @@ public class LoopTest03 {
 				}
 			} 
 			System.out.println();
-		}
-		
-		
-		
-		
+		}*/
+/*
+    *
+   **
+  ***
+ ****
+*****
+ ****
+  ***
+   **
+    *
+ */
 	}
 }
