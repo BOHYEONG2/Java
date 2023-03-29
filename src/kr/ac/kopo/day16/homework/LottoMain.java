@@ -8,9 +8,6 @@ package kr.ac.kopo.day16.homework;
 	...
 	게임10 :
  */
-
-
-
 public class LottoMain {
 
 	public static void main(String[] args) {
